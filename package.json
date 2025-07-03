@@ -1,15 +1,17 @@
 {
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
-<<<<<<< HEAD
     "@imagekit/next": "^2.1.2",
+    "@tanstack/react-query": "^5.81.5",
+    "@tanstack/react-query-devtools": "^5.81.5",
     "@types/bcryptjs": "^2.4.6",
     "bcryptjs": "^3.0.2",
+    "mongodb": "^6.17.0",
     "mongoose": "^8.16.0",
     "next-auth": "^4.24.11"
-=======
-    "@types/bcryptjs": "^2.4.6",
-    "bcryptjs": "^3.0.2",
-    "mongoose": "^8.16.0"
->>>>>>> 262eaef9cdf78fa49716ace40953275f858181ab
   }
 }
